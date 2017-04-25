@@ -24,7 +24,7 @@ private static List<Oferta> ofertas = new ArrayList<>();
 		
 
 @Override
-public List<Oferta> getOfertas() {
+public List<Oferta> getOfertas() throws OfertaException{
 			return ofertas;
 		}
 		
